@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		3A2D2DBF25043E52009B3F1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2D2DBE25043E52009B3F1F /* AppDelegate.swift */; };
 		3A2D2DC125043E52009B3F1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2D2DC025043E52009B3F1F /* SceneDelegate.swift */; };
-		3A2D2DC325043E52009B3F1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2D2DC225043E52009B3F1F /* ContentView.swift */; };
 		3A2D2DC525043E53009B3F1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A2D2DC425043E53009B3F1F /* Assets.xcassets */; };
 		3A2D2DC825043E53009B3F1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A2D2DC725043E53009B3F1F /* Preview Assets.xcassets */; };
 		3A2D2DCB25043E53009B3F1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A2D2DC925043E53009B3F1F /* LaunchScreen.storyboard */; };
 		3A2D2DD625043E53009B3F1F /* HabituatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2D2DD525043E53009B3F1F /* HabituatorTests.swift */; };
 		3A2D2DE125043E53009B3F1F /* HabituatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2D2DE025043E53009B3F1F /* HabituatorUITests.swift */; };
+		3A2D2DF325043E6F009B3F1F /* AddHabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2D2DEF25043E6F009B3F1F /* AddHabitView.swift */; };
+		3A2D2DF425043E6F009B3F1F /* HabitTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2D2DF025043E6F009B3F1F /* HabitTileView.swift */; };
+		3A2D2DF525043E6F009B3F1F /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2D2DF125043E6F009B3F1F /* Habit.swift */; };
+		3A2D2DF625043E6F009B3F1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2D2DF225043E6F009B3F1F /* ContentView.swift */; };
+		3A2D2DF825043E8A009B3F1F /* UserHabits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2D2DF725043E8A009B3F1F /* UserHabits.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +42,6 @@
 		3A2D2DBB25043E52009B3F1F /* Habituator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Habituator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A2D2DBE25043E52009B3F1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A2D2DC025043E52009B3F1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3A2D2DC225043E52009B3F1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3A2D2DC425043E53009B3F1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A2D2DC725043E53009B3F1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3A2D2DCA25043E53009B3F1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		3A2D2DDC25043E53009B3F1F /* HabituatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HabituatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A2D2DE025043E53009B3F1F /* HabituatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabituatorUITests.swift; sourceTree = "<group>"; };
 		3A2D2DE225043E53009B3F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A2D2DEF25043E6F009B3F1F /* AddHabitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddHabitView.swift; sourceTree = "<group>"; };
+		3A2D2DF025043E6F009B3F1F /* HabitTileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HabitTileView.swift; sourceTree = "<group>"; };
+		3A2D2DF125043E6F009B3F1F /* Habit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
+		3A2D2DF225043E6F009B3F1F /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3A2D2DF725043E8A009B3F1F /* UserHabits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserHabits.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +109,9 @@
 			children = (
 				3A2D2DBE25043E52009B3F1F /* AppDelegate.swift */,
 				3A2D2DC025043E52009B3F1F /* SceneDelegate.swift */,
-				3A2D2DC225043E52009B3F1F /* ContentView.swift */,
 				3A2D2DC425043E53009B3F1F /* Assets.xcassets */,
+				3A2D2DF725043E8A009B3F1F /* UserHabits.swift */,
+				3A2D2DEE25043E6F009B3F1F /* Views */,
 				3A2D2DC925043E53009B3F1F /* LaunchScreen.storyboard */,
 				3A2D2DCC25043E53009B3F1F /* Info.plist */,
 				3A2D2DC625043E53009B3F1F /* Preview Content */,
@@ -134,6 +143,17 @@
 				3A2D2DE225043E53009B3F1F /* Info.plist */,
 			);
 			path = HabituatorUITests;
+			sourceTree = "<group>";
+		};
+		3A2D2DEE25043E6F009B3F1F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3A2D2DEF25043E6F009B3F1F /* AddHabitView.swift */,
+				3A2D2DF025043E6F009B3F1F /* HabitTileView.swift */,
+				3A2D2DF125043E6F009B3F1F /* Habit.swift */,
+				3A2D2DF225043E6F009B3F1F /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,9 +286,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A2D2DF525043E6F009B3F1F /* Habit.swift in Sources */,
 				3A2D2DBF25043E52009B3F1F /* AppDelegate.swift in Sources */,
+				3A2D2DF625043E6F009B3F1F /* ContentView.swift in Sources */,
+				3A2D2DF325043E6F009B3F1F /* AddHabitView.swift in Sources */,
 				3A2D2DC125043E52009B3F1F /* SceneDelegate.swift in Sources */,
-				3A2D2DC325043E52009B3F1F /* ContentView.swift in Sources */,
+				3A2D2DF825043E8A009B3F1F /* UserHabits.swift in Sources */,
+				3A2D2DF425043E6F009B3F1F /* HabitTileView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +465,7 @@
 				DEVELOPMENT_TEAM = 2J59QZU6T2;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Habituator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,6 +487,7 @@
 				DEVELOPMENT_TEAM = 2J59QZU6T2;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Habituator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
